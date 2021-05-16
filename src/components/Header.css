@@ -1,0 +1,125 @@
+.header{
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.header__logo a{
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #8e43e7;
+    text-decoration: none;
+}
+
+.header__laptopIcon{
+    display: inline-block;
+    width: 45px;
+    margin-right: 7px;
+}
+
+.header__option .header__nav nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__option, .header__items {
+    align-items: center;
+    display: flex;
+}
+
+.header__option .header__items .mode,
+.header__option .header__items .menu-toggle-container
+{
+    margin-left: 25px;
+}
+
+.header__option .header__nav nav ul li{
+    list-style: none;
+}
+
+.header__option .header__nav nav ul a{
+    color: #696969;
+    padding: 14px 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header__option .header__nav nav ul .nav_option:hover{
+    color: #8e43e7;
+    border-bottom: solid 1px #8e43e7;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.moon-icon,.moon-icon:hover{
+    width: 28px;
+}
+
+.menu-toggle-container{
+    display: none;
+    padding-top: 4px;
+    width: 40px;
+    height: 38px;
+    background-color: #8e43e7;
+    border-radius: 8px;
+}
+
+.menu-toggle{
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-toggle img{
+    width: 23px;
+}
+
+@media (max-width: 900px){
+    .menu-toggle-container{
+        display: block;
+    }
+
+    .header__option .header__nav nav{
+        border-top: solid 1px lightgrey;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        top: 93px;
+        left: 0;
+        transition: 0.5s;
+    }
+
+    .header__option .header__nav .active{
+        left: 0;
+    }
+
+    .header__option .header__nav .notactive{
+        left: -100%;
+    }
+    
+    .header__option .header__nav nav ul{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .header__option .header__nav nav ul li a{
+        justify-content: center;
+    }
+    .header__option .header__nav nav ul .nav_option:hover{
+        border-bottom: none;
+    }
+}
