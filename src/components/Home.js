@@ -63,6 +63,55 @@ function Home() {
                             </div>
                         </div>
                     </section>
+
+                    <section className="w3l-services services mx-auto mt-5 pt-5">
+                        <h5 className="title-small text-center">Services</h5>
+                        <h3 className="title-big text-center mb-sm-5 mb-4">What I do for you</h3>
+
+                        <div className="mx-auto pr-2">
+                            <div className="owl-two owl-carousel owl-theme">
+                                <div className="item col-md-4">
+                                    <div className="card">
+                                        <div className="box-wrap">
+                                            <div className="icon">
+                                                <img className="header__laptopIcon" src="./laptop-icon.png" />
+                                            </div>
+                                            <h4 className="number">01</h4>
+                                            <h4><a href="#url">Web Development</a></h4>
+                                            <p>Node Js, MongoDB</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="item col-md-4">
+                                    <div className="card">
+                                        <div className="box-wrap">
+                                            <div className="icon">
+                                                <img className="header__laptopIcon" src="./laptop-icon.png" />
+                                            </div>
+                                            <h4 className="number">02</h4>
+                                            <h4><a href="#url">Static Website</a></h4>
+                                            <p>React Js, HTML, CSS</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="item col-md-4">
+                                    <div className="card">
+                                        <div className="box-wrap">
+                                            <div className="icon">
+                                                <img className="header__laptopIcon" src="./laptop-icon.png" />
+                                            </div>
+                                            <h4 className="number">03</h4>
+                                            <h4><a href="#url">E-Commerce Website</a></h4>
+                                            <p>React Js, Firebase, Firestore</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>

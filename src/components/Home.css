@@ -118,3 +118,60 @@ p{
     width: 100%;
     height: auto;
 }
+
+.w3l-services .card {
+    border: none;
+    background: none;
+}
+
+.w3l-services .item{
+    width: 395px;
+    float: left;
+}
+
+.w3l-services .box-wrap {
+    padding: 40px 30px;
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+    background-color: rgba(147, 107, 232, 0.05);
+    position: relative;
+    margin-bottom: 20px;
+    border: 2px solid rgba(147, 107, 232, 0.11);
+}
+
+.w3l-services .box-wrap:hover{
+    background-color: #fff;
+    border: 2px solid rgba(147, 107, 232, 0.11);
+}
+
+.w3l-services h4.number {
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+    right: 40px;
+    top: 30px;
+    opacity: .07;
+    transition: 0.3s ease-in-out;
+}
+
+.w3l-services .box-wrap h4 a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    color: #3f3a64;
+}
+
+.w3l-services .box-wrap h4 a:hover{
+    color: #8e43e7;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
