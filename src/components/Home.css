@@ -85,6 +85,7 @@ h1 span{
 }
 
 .about{
+    background-color: #fff;
     font-family: 'Jost', sans-serif;
     padding: 60px;
     padding-top: 80px;
@@ -109,4 +110,11 @@ p{
     line-height: 28px;
     color: #696969;
     font-family: 'Jost', sans-serif;
+}
+
+.my-resume{
+    background-color: rgba(147, 107, 232, 0.05);
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    height: auto;
 }
