@@ -28,7 +28,7 @@ function Header() {
                         <div className="header__nav">
                             <nav className={toggle ? "active" : "notactive"}>
                                 <ul>
-                                    <li><a className="nav_option" href="">Home</a></li>
+                                    <li><a className="nav_option active" href="">Home</a></li>
                                     <li><a className="nav_option" href="">About</a></li>
                                     <li><a className="nav_option" href="">Contact</a></li>
                                 </ul>
