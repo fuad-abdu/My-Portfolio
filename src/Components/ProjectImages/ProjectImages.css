@@ -1,0 +1,33 @@
+section{
+    background-color: rgba(147, 107, 232, 0.05);
+    width: 100%;
+    height: 100%;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: auto;
+  }
+
+.each-slide img{
+    width: 100%;
+    height: auto;
+}
+
+.each-slide{
+    background-color: #fff;
+
+    padding: 10px;
+}
+
+.btn{
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    /* height: 50px; */
+    margin-bottom: 20px;
+}
+  

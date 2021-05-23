@@ -1,0 +1,53 @@
+.w3l-services .card {
+    border: none;
+    background: none;
+}
+
+.w3l-services .item{
+    /* align-items: center; */
+    float: left;
+}
+
+.w3l-services .box-wrap {
+    padding: 40px 30px;
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+    background-color: rgba(147, 107, 232, 0.05);
+    position: relative;
+    margin-bottom: 50px;
+    border: 2px solid rgba(147, 107, 232, 0.11);
+}
+
+.w3l-services .box-wrap:hover{
+    transform: scale(1.10);
+    background-color: #fff;
+    border: 2px solid rgba(147, 107, 232, 0.11);
+}
+
+.w3l-services h4.number {
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+    right: 40px;
+    top: 30px;
+    opacity: .07;
+    transition: 0.3s ease-in-out;
+}
+
+.w3l-services h4.number:hover{
+    opacity: .3;
+}
+
+.w3l-services .box-wrap h4 a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    color: #3f3a64;
+}
+
+.w3l-services .box-wrap h4 a:hover{
+    color: #8e43e7;
+}
