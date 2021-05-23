@@ -1,0 +1,83 @@
+.w3l-about-breadcrumb {
+    padding-top: 90px;
+    background:  rgba(147, 107, 232, 0.05); 
+}
+
+.w3l-about-breadcrumb h2.title {
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 400; 
+}
+
+.w3l-about-breadcrumb .breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: capitalize; 
+}
+.w3l-about-breadcrumb .breadcrumbs-custom-path li span.fa {
+    font-size: 12px;
+    vertical-align: 2px; 
+}
+
+.w3l-aboutblock1 ul.social li {
+    display: inline-block;
+    margin-left: 6px; 
+}
+  
+.w3l-aboutblock1 ul.social li a {
+    color: #aaa;
+    width: 32px;
+    display: block;
+    text-align: center; 
+}
+  
+.w3l-aboutblock1 ul.social li a span.fab {
+    font-size: 22px;
+    line-height: 32px; 
+}
+  
+.w3l-aboutblock1 ul.social li a:hover {
+    color: #8e43e7; 
+}
+  
+.w3l-aboutblock1 ul.social:before {
+    background-color: #999;
+    content: '';
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+  
+.w3l-aboutblock1 .my-social {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 50px; 
+}
+
+.my-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    margin-top: 30px; }
+  
+.single-info p {
+    display: inline-block; 
+}
+  
+.single-info span {
+    color: #3f3a64;
+    font-weight: 400;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    min-width: 60px; 
+}

@@ -16,8 +16,8 @@ function ProjectImages() {
     ];
 
     return (
-        <section className="text-center">
-            <div className="container">
+        <section className="text-center pt-5">
+            <div className="container pt-5">
                 <div className="row">
                     <div className="col-md-12 pt-4">
                         <Slide easing="ease">

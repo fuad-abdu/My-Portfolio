@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css'
 
-function Header() {
+function Header(props) {
 
     const [toggle, setToggle] = useState(false);
 
@@ -18,7 +18,7 @@ function Header() {
             <div className="container">
                 <div className="row">
                     <div className="header__logo">
-                        <a href="">
+                        <a href="/">
                             <img className="header__laptopIcon" src="./laptop-icon.png" />
                             Fuad
                         </a>
@@ -28,9 +28,9 @@ function Header() {
                         <div className="header__nav">
                             <nav className={toggle ? "active" : "notactive"}>
                                 <ul>
-                                    <li><a className="nav_option active" href="">Home</a></li>
-                                    <li><a className="nav_option" href="">About</a></li>
-                                    <li><a className="nav_option" href="">Contact</a></li>
+                                    <li><a className={"nav_option", props.home? "active" : ""} href="/">Home</a></li>
+                                    <li><a className={"nav_option", props.about? "active" : ""} href="/about">About</a></li>
+                                    <li><a className={"nav_option", props.contact? "active" : ""} href="">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>

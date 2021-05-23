@@ -82,3 +82,14 @@
 .show > .btn-outline-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(142, 67, 231, 0.5); 
 } 
+
+a {
+    color: #8e43e7;
+    background-color: transparent;
+}
+
+a, a:hover {
+    color: #6919ca;
+    text-decoration: none;
+}
+

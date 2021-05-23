@@ -1,5 +1,5 @@
 .w3l-footer {
-    border-top: 1px solid var(--border-color); 
+    border-top: 1px solid #ddd; 
 }
 
 .w3l-footer ul.social li {
@@ -50,4 +50,11 @@ span.fab:hover {
     line-height: 1;
     margin-top: 5px;
     color: #8e43e7; 
+}
+
+span.fas{
+    font-size: 1em;
+    line-height: 1;
+    margin-top: 5px;
+    color: #fff; 
 }
