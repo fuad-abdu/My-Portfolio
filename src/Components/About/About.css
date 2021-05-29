@@ -1,6 +1,6 @@
 .w3l-about-breadcrumb {
     padding-top: 90px;
-    background:  rgba(147, 107, 232, 0.05); 
+    background: var(--bg-light); 
 }
 
 .w3l-about-breadcrumb h2.title {
@@ -10,6 +10,7 @@
 }
 
 .w3l-about-breadcrumb .breadcrumbs-custom-path li {
+    color: var(--font-color);
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -21,6 +22,10 @@
 .w3l-about-breadcrumb .breadcrumbs-custom-path li span.fa {
     font-size: 12px;
     vertical-align: 2px; 
+}
+
+.w3l-aboutblock1{
+  background-color: var(--bg-color);
 }
 
 .w3l-aboutblock1 ul.social li {
@@ -74,10 +79,85 @@
 }
   
 .single-info span {
-    color: #3f3a64;
+    color: var(--heading-color);
     font-weight: 400;
     margin-right: 10px;
     font-weight: 600;
     font-size: 1.2em;
     min-width: 60px; 
+}
+
+.about_resume {
+  background-color:var(--bg-light);
+}
+
+.feature-gird{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.features-w3pvt-main h4 a {
+    margin-left: 5px;
+    font-size: 27px;
+    line-height: 34px;
+    color: var(--heading-color);
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 10px; 
+}
+  
+  .features-w3pvt-main span.fa, .far {
+    font-size: 2em;
+    margin-top: 5px;
+    color: #8e43e7; }
+  
+  .features-w3pvt-main .features-hny-inner-gd:hover span {
+    color: #273c66;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out; }
+
+  .w3l-content-6{
+    background-color: var(--bg-color);
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .features-w3pvt-main h4 a {
+      font-size: 24px; } }
+
+      .w3l-content-6 .progress {
+        display: flex;
+        height: 0.5em;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color:var(--bg-light);
+        border-radius: 0.25rem; }
+      
+      .w3l-content-6 h3 {
+        text-align: left; }
+      
+      .w3l-content-6 .progress-info {
+        margin-bottom: 30px;
+        text-align: left; }
+      
+      .w3l-content-6 .progress-bar {
+        background-color: var(--primary-color);
+        transition: width 0.6s ease; }
+      
+      .w3l-content-6 .progress-bar-striped {
+        background-image: none;
+        background-size: 1rem 1rem; }
+      
+      .w3l-content-6 h6.progress-tittle {
+        font-size: 1.2em;
+        color: var(--heading-color);
+        margin-bottom: 10px;
+        font-weight: 500; }
+
+
+@media (max-width: 790px) {
+    .w3l-aboutblock1 ul.social:before{
+        display: none;
+    }
 }

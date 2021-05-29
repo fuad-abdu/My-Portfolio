@@ -20,7 +20,7 @@ html{
     right: -5px;
     width: 1px;
     height: 100%;
-    border-right: 3px solid black;
+    border-right: 3px solid var(--heading-color);
     animation: blink 0.5s infinite ease;
 }
 
@@ -37,7 +37,7 @@ html{
     padding-top: 205px;
     width: 100%;
     height: 100vh;
-    background-color: rgba(147, 107, 232, 0.05);
+    background-color: var(--bg-light);
     color: #3f3a64;
     font-family: 'Jost', sans-serif;
 }
@@ -56,13 +56,14 @@ h1 span{
 }
 
 .title{
+    color: var(--heading-color);
     font-size: 48px;
     line-height: 1.2;
     font-weight: 600;
 }
 
 .about{
-    background-color: #fff;
+    background-color: var(--bg-color);
     font-family: 'Jost', sans-serif;
     padding-bottom: 60px;
     padding-top: 60px;
@@ -70,11 +71,16 @@ h1 span{
     height: auto;
 }
 
+.about-container{
+    background-color: var(--bg-color);
+}
+
 .container{
     width: 100%;
 }
 
 .title-big{
+    color: var(--heading-color);
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
@@ -85,12 +91,12 @@ p{
     padding: 0;
     font-size: 1.2em;
     line-height: 28px;
-    color: #696969;
+    color: var(--font-color);
     font-family: 'Jost', sans-serif;
 }
 
 .my-resume{
-    background-color: rgba(147, 107, 232, 0.05);
+    background-color: var(--bg-light);
     font-family: 'Jost', sans-serif;
     width: 100%;
     height: auto;
@@ -100,16 +106,18 @@ p{
 
 } */
 .services{
+    background-color: var(--bg-color);
     width: 100%;
 }
 
 .project-details{
-    margin-top: 60px;
-    background-color: rgba(147, 107, 232, 0.05);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--bg-light);
     font-family: 'Jost', sans-serif;
     width: 100%;
     height: auto;
-    padding: 65px;
+    /* padding: 65px; */
 }
 
 .stats_info {
@@ -123,7 +131,7 @@ p{
 
 .stats_info img{
     font-size: 2.5em;
-    color: #8e43e7;
+    color: var(--primary-color);
     margin: 0;
 }
 
@@ -131,7 +139,7 @@ p{
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
-    color: #3f3a64;
+    color: var(--heading-color);
     margin-top: 30px;
     margin-bottom: 0;
 }
@@ -151,7 +159,11 @@ p{
 
 .projects{
     padding-top: 30px;
-}      
+}  
+
+.get-in-touch{
+    background-color: var(--bg-color);
+}
 
 @media (max-width:790px) {
     .title{

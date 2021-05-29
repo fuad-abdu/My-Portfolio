@@ -12,19 +12,20 @@
     padding: 40px 30px;
     transition: all 0.5s ease 0s;
     border-radius: 10px;
-    background-color: rgba(147, 107, 232, 0.05);
+    background-color: var(--bg-light);
     position: relative;
     margin-bottom: 50px;
-    border: 2px solid rgba(147, 107, 232, 0.11);
+    border: 2px solid var(--border-light);
 }
 
 .w3l-services .box-wrap:hover{
     transform: scale(1.10);
-    background-color: #fff;
-    border: 2px solid rgba(147, 107, 232, 0.11);
+    background-color: var(--bg-color);
+    border: 2px solid var(--border-light);
 }
 
 .w3l-services h4.number {
+    color: var(--font-color);
     position: absolute;
     font-size: 60px;
     line-height: 60px;
@@ -35,6 +36,7 @@
 }
 
 .w3l-services h4.number:hover{
+    color: var(--font-color);
     opacity: .3;
 }
 
@@ -45,7 +47,7 @@
     margin-top: 25px;
     margin-bottom: 15px;
     display: block;
-    color: #3f3a64;
+    color: var(--heading-color);
 }
 
 .w3l-services .box-wrap h4 a:hover{

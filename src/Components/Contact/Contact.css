@@ -1,0 +1,97 @@
+.contact-view {
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 30px; }
+  
+  .cont-top {
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-column-gap: 20px; }
+  
+  .twice {
+    margin-bottom: 20px; }
+  
+  .cont-details h6 {
+    font-size: 20px;
+    color: var(--heading-color);
+    font-weight: 600; }
+  
+  .cont-details p,
+  .cont-details p a {
+    font-size: 19px;
+    line-height: 28px;
+    color: var(--font-color);
+    margin-top: 3px; }
+  
+  .cont-details p a:hover {
+    text-decoration: underline;
+  }
+  
+.w3l-contact-1{
+  background-color: var(--bg-color);
+}
+
+  .cont-details address {
+    margin: 25px 0; }
+  
+  .cont-details address p {
+    margin: 5px 0; }
+  
+  .twice-two {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px; }
+  
+  .map-content-9 form input,
+  .map-content-9 form textarea {
+    background: var(--bg-light);
+    border: 1px solid transparent;
+    color: var(--font-color);
+    font-size: 1.2em;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: var(--border-radius);
+    height: 55px; }
+  
+  .map-content-9 h5 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #3f3a64; }
+  
+  .map-content-9 form textarea {
+    resize: none;
+    min-height: 140px; }
+  
+  .map-content-9 form input:focus,
+  .map-content-9 form textarea:focus {
+    outline: none;
+    border: 1px solid #8e43e7;
+    background: var(--bg-color);
+    box-shadow: none; }
+  
+  .cont-details h6 a {
+    color: #3f3a64; }
+
+    .d-grid {
+        display: grid; }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+
+.cont-left span.far, .cont-top span.fas{
+    font-size: 1rem;
+    color: #8e43e7;
+}

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProjectImages from './Components/ProjectImages/ProjectImages';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
             <Header about="active" />
             <About/>
             <Footer />
+          </Route>
+
+          <Route path="/contact">
+            <Header contact="active" />
+            <Contact/>
+            <Footer/>
           </Route>
 
         </Switch>
