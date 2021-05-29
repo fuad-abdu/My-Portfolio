@@ -17,7 +17,17 @@ function Header(props) {
         }
     }
 
-    changeTheme(theme, currentTheme);
+    if (theme) {
+        currentTheme = "dark"
+    } else {
+        currentTheme = "light"
+    }
+
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+    if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+    }
 
     return (
         <div className="header">

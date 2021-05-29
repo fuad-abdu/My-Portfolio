@@ -141,6 +141,14 @@
   .theme-switch input {
     display: none; }
 
+    #gg-sun{
+        display: var(--sun-theme);
+    }
+
+    #gg-moon{
+        display: var(--moon-theme);
+    }
+
     .gg-sun {
         color: var(--font-color);
         position: relative;
@@ -150,7 +158,7 @@
         border-radius: 100px;
         box-shadow: inset 0 0 0 2px;
         border: 6px solid transparent; }
-      
+
       .gg-moon {
         color: var(--font-color);
         overflow: hidden;

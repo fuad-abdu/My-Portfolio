@@ -12,6 +12,8 @@
     --bg-light: rgba(147, 107, 232, 0.05);
     --iframe-filter: grayscale(0%);
     --widget-bg: #3f3a64; 
+    --moon-theme: block;
+    --sun-theme: none;
 }
 
 [data-theme="dark"]{
@@ -27,6 +29,8 @@
     --dropdown-color: #191c1d;
     --iframe-filter: grayscale(100%);
     --widget-bg: #131617;
+    --moon-theme: none;
+    --sun-theme: block;
 }
 
 .btn-style{
